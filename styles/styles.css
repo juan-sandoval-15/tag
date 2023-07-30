@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=PT+Serif&family=Rancho&display=swap');
+.titulo1{
+    background-color: rgba(255,207,139,0.50);
+    font-size: 2rem;
+    color: #804000;
+    justify-content: center;
+    font-family: 'Dancing Script', cursive;
+}
+.titulo2{
+    font-family: 'Rancho', cursive;
+}
+.titulo3{
+    font-family: 'PT Serif', serif;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: beige;
+    color: black;
+    font-family: 'Rancho', cursive;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: #804000;
+}
+body{
+    background-image: linear-gradient( 90.5deg,  rgba(255,207,139,0.50) 1.1%, rgba(255,207,139,1) 81.3% );
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.table{
+    border-collapse: collapse;
+}
+.table td{
+    border: 1px solid;
+    text-align: center;
+}
+.table th{
+    background-color: #804000;
+    color: beige;
+}
+.table td:hover{
+    background-color: black;
+    color: beige;
+}
+.table th:hover{
+    background-color: beige;
+    color: #804000;
+}
+.td{
+    font-weight: bold;
+}
+caption{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
